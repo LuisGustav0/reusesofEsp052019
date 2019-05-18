@@ -1,4 +1,4 @@
-package com.sistema.model.veiculo.factory;
+package com.sistema.model.veiculo.fabrica;
 
 import com.sistema.enums.CondicaoMetereologicaE;
 import com.sistema.enums.TipoCombustivelE;
@@ -8,10 +8,11 @@ import com.sistema.model.veiculo.EscortXr3;
 import com.sistema.model.veiculo.Opala;
 import com.sistema.model.veiculo.TeslaRoadster;
 import com.sistema.model.veiculo.Veiculo;
+import com.sistema.model.veiculo.factory.VeiculoFactory;
 
 public class FabricaVeiculo implements VeiculoFactory {
 
-  public Veiculo criarVeiculo(int km, int quantidadePessoa, CondicaoMetereologicaE condicaoMetereologicaE) {
+  public Veiculo criar(int km, int quantidadePessoa, CondicaoMetereologicaE condicaoMetereologicaE) {
     if (km > 500 || (quantidadePessoa <= 0 || quantidadePessoa > 20)) {
       return null;
     }

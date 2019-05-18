@@ -8,28 +8,4 @@ public abstract class Veiculo {
   private TipoCombustivelE tipoCombustivelE;
   private TipoVeiculoE tipoVeiculoE;
   private CondicaoMetereologicaE condicaoMetereologicaE;
-
-  public TipoCombustivelE getTipoCombustivelE() {
-    return tipoCombustivelE;
-  }
-
-  public void setTipoCombustivelE(TipoCombustivelE tipoCombustivelE) {
-    this.tipoCombustivelE = tipoCombustivelE;
-  }
-
-  public TipoVeiculoE getTipoVeiculoE() {
-    return tipoVeiculoE;
-  }
-
-  public void setTipoVeiculoE(TipoVeiculoE tipoVeiculoE) {
-    this.tipoVeiculoE = tipoVeiculoE;
-  }
-
-  public CondicaoMetereologicaE getCondicaoMetereologicaE() {
-    return condicaoMetereologicaE;
-  }
-
-  public void setCondicaoMetereologicaE(CondicaoMetereologicaE condicaoMetereologicaE) {
-    this.condicaoMetereologicaE = condicaoMetereologicaE;
-  }
 }

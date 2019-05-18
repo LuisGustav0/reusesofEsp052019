@@ -5,6 +5,7 @@ import com.sistema.enums.TipoCombustivelE;
 import com.sistema.enums.TipoVeiculoE;
 
 public class Opala extends Veiculo {
+
   public Opala(int km,
                int quantidadePessoa,
                CondicaoMetereologicaE condicaoMetereologicaE,
