@@ -5,5 +5,5 @@ import com.sistema.model.veiculo.Veiculo;
 
 public interface VeiculoFactory {
 
-  Veiculo criar(int km, int quantidadePessoa, CondicaoMetereologicaE condicaoMetereologicaE);
+  Veiculo criarVeiculo(int km, int quantidadePessoa, CondicaoMetereologicaE condicaoMetereologicaE);
 }

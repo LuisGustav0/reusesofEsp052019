@@ -5,6 +5,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factoryMethod/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/enums/CondicaoMetereologicaE.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/enums/TipoCombustivelE.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/enums/TipoVeiculoE.java" afterDir="false" />
@@ -15,6 +17,7 @@
       <change afterPath="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Veiculo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/FabricaVeiculo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/VeiculoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factoryMethod/src/test/java/com/sistema/service/VeiculoServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,13 +28,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Veiculo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
@@ -52,20 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/VeiculoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/FabricaVeiculo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,6 +69,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/FabricaVeiculo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Besta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -92,19 +99,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/EscortXr3.java">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/TeslaRoadster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/TeslaRoadster.java">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/EscortXr3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -130,12 +137,13 @@
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/Veiculo.java" />
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/enums/TipoCombustivelE.java" />
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Veiculo.java" />
-        <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/VeiculoFactory.java" />
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Opala.java" />
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/EscortXr3.java" />
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/TeslaRoadster.java" />
-        <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/FabricaVeiculo.java" />
         <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Besta.java" />
+        <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/VeiculoFactory.java" />
+        <option value="$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/FabricaVeiculo.java" />
+        <option value="$PROJECT_DIR$/factoryMethod/src/test/java/com/sistema/service/VeiculoServiceTest.java" />
       </list>
     </option>
   </component>
@@ -250,6 +258,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TesteProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TesteProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sistema" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -351,13 +393,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/factoryMethod/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/enums/CondicaoMetereologicaE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -379,10 +414,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/src/test/java/com/sistema/service/VeiculoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Veiculo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="272">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
@@ -401,11 +453,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/VeiculoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Besta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Opala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -423,27 +489,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Opala.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/factory/FabricaVeiculo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+        <state relative-caret-position="238">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factoryMethod/src/main/java/com/sistema/model/veiculo/Besta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>

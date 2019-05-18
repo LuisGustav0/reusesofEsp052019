@@ -11,7 +11,7 @@ import com.sistema.model.veiculo.Veiculo;
 
 public class FabricaVeiculo implements VeiculoFactory {
 
-  public Veiculo criar(int km, int quantidadePessoa, CondicaoMetereologicaE condicaoMetereologicaE) {
+  public Veiculo criarVeiculo(int km, int quantidadePessoa, CondicaoMetereologicaE condicaoMetereologicaE) {
     if (km > 500 || (quantidadePessoa <= 0 || quantidadePessoa > 20)) {
       return null;
     }
