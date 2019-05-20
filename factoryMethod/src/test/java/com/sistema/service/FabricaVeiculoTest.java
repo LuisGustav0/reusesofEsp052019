@@ -91,4 +91,26 @@ public class FabricaVeiculoTest {
 
     assertTrue(isTeslaRoadster);
   }
+
+  @Test
+  public void testCaminhoneiroEmGreveTodoAbastecimentoFossilFoiInterrompidoENumeroDePessoasMaiorQue2() {
+    int km = 400;
+    int quantidadePessoa = 3;
+
+    VeiculoFactory fabricaVeiculo = new FabricaComCriseCombustivel();
+    Veiculo veiculo = fabricaVeiculo.criar(km, quantidadePessoa, CondicaoMetereologicaE.CHUVA);
+
+    assertNull(veiculo);
+  }
+
+  @Test
+  public void testCaminhoneiroEmGreveTodoAbastecimentoFossilFoiInterrompidoParaDistanciasAte500Km() {
+    int km = 501;
+    int quantidadePessoa = 2;
+
+    VeiculoFactory fabricaVeiculo = new FabricaComCriseCombustivel();
+    Veiculo veiculo = fabricaVeiculo.criar(km, quantidadePessoa, CondicaoMetereologicaE.CHUVA);
+
+    assertNull(veiculo);
+  }
 }
