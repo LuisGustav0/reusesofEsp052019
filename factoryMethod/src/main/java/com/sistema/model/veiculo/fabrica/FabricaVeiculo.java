@@ -26,7 +26,7 @@ public class FabricaVeiculo implements VeiculoFactory {
     }
 
     if (quantidadePessoa <= 5 && condicaoMetereologicaE == CondicaoMetereologicaE.CHUVA) {
-      return new Opala(km, quantidadePessoa, condicaoMetereologicaE, TipoCombustivelE.GASOLINA, TipoVeiculoE.NAO_CONVERSIVEL);
+      return new Opala(km, quantidadePessoa, condicaoMetereologicaE, TipoCombustivelE.GASOLINA, TipoVeiculoE.CONVENSIONAL);
     }
 
     if (quantidadePessoa > 5) {
