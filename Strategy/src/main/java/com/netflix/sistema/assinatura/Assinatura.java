@@ -5,8 +5,12 @@ import com.netflix.sistema.assinatura.preparador.numerotransmissao.interfaces.IP
 import com.netflix.sistema.assinatura.transformer.interfaces.IContentTransformer;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class Assinatura {
+
+  private NumberFormat formatter = new DecimalFormat("#0.00");
 
   private IPreco ipreco;
   private IContentTransformer iContentTransformer;
@@ -21,14 +25,23 @@ public class Assinatura {
   }
 
   public BigDecimal getPreco() {
-    return ipreco.getCalculaPreco();
+    BigDecimal preco = ipreco.getCalculaPreco();
+
+    System.out.println("Assinatura -> getPreco: " + formatter.format(preco));
+
+    return preco;
   }
 
   public byte[] disponibilizarConteudo() {
-    return iContentTransformer.converterQualidade();
+    byte[] bytes = iContentTransformer.converterQualidade();
+
+    System.out.println("Assinatura -> disponibilizarConteudo: " + iContentTransformer.getClass().getSimpleName());
+
+    return bytes;
   }
 
   public void preparadorAmbienteParaTransmissoesSimultanias() {
-
+    System.out.println("Assinatura -> preparadorAmbienteParaTransmissoesSimultanias: " +
+        iPreparadorNumeroTransmissoes.preparadorAmbienteParaTransmissoesSimultanias());
   }
 }
