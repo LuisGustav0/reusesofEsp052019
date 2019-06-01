@@ -19,6 +19,8 @@ public class Estacao implements Observable {
 
   public void setTemperatura(int temperatura) {
     this.temperatura = temperatura;
+
+    this.notifyObservers();
   }
 
   public int getPressao() {
@@ -27,6 +29,8 @@ public class Estacao implements Observable {
 
   public void setPressao(int pressao) {
     this.pressao = pressao;
+
+    this.notifyObservers();
   }
 
   public int getUmidade() {
@@ -35,6 +39,8 @@ public class Estacao implements Observable {
 
   public void setUmidade(int umidade) {
     this.umidade = umidade;
+
+    this.notifyObservers();
   }
 
   public void attach(Observer observer) {
@@ -46,8 +52,17 @@ public class Estacao implements Observable {
   }
 
   public void notifyObservers() {
-    for (Observer observer : listaObserver) {
-      observer.update();
-    }
+    this.listaObserver.stream()
+        .forEach(observer -> observer.update());
+  }
+
+  @Override
+  public String toString() {
+    return "Estacao{" +
+        "listaObserver=" + listaObserver +
+        ", temperatura=" + temperatura +
+        ", pressao=" + pressao +
+        ", umidade=" + umidade +
+        '}';
   }
 }

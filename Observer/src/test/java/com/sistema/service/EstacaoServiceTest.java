@@ -16,7 +16,5 @@ public class EstacaoServiceTest {
     estacao.setTemperatura(120);
     estacao.setPressao(20);
     estacao.setUmidade(5);
-
-    estacao.notifyObservers();
   }
 }
