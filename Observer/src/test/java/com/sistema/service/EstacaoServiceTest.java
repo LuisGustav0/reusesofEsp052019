@@ -7,7 +7,7 @@ import org.junit.Test;
 public class EstacaoServiceTest {
 
   @Test
-  public void test() {
+  public void testComClimaTempo() {
     Estacao estacao = new Estacao();
 
     ClimaTempo climaTempo = new ClimaTempo(estacao);

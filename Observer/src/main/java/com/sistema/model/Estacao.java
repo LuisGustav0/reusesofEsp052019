@@ -59,7 +59,6 @@ public class Estacao implements Observable {
   @Override
   public String toString() {
     return "Estacao{" +
-        "listaObserver=" + listaObserver +
         ", temperatura=" + temperatura +
         ", pressao=" + pressao +
         ", umidade=" + umidade +
